@@ -1,14 +1,12 @@
 package com.meli.coupons;
 
-import com.meli.coupons.service.CouponService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @SpringBootApplication
+@EnableFeignClients
 public class CouponsApplication {
 
 	public static void main(String[] args) {

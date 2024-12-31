@@ -26,6 +26,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.2.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -34,21 +35,19 @@ dependencies {
 }
 
 jacoco {
-	toolVersion = "0.8.12" // Usa la versión más reciente
+	toolVersion = "0.8.12"
 }
 
 test {
-	useJUnitPlatform() // Usa JUnit 5 si lo necesitas
-	finalizedBy jacocoTestReport // Ejecutar el reporte de JaCoCo después de las pruebas
+	useJUnitPlatform()
+	finalizedBy jacocoTestReport
 }
 
 jacocoTestReport {
-	dependsOn test // Asegúrate de que las pruebas se ejecuten antes de generar el reporte
+	dependsOn test
 	reports {
-		xml.required = true // Habilitar reporte en XML
-		html.required = true // Habilitar reporte en HTML
-		html.outputLocation = file("${buildDir}/jacocoHtml") // Ubicación del reporte HTML
-		xml.outputLocation = file("${buildDir}/jacoco.xml") // Ubicación del reporte XML
+		xml.required = true
+		html.required = true
 	}
 
 }
