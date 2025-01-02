@@ -4,6 +4,7 @@ import com.meli.coupons.service.integration.ExternalAPIFeign;
 import com.meli.coupons.model.ItemResponse;
 import com.meli.coupons.service.integration.ExternalAPIWebflux;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.ReactiveRedisTemplate;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
@@ -15,6 +16,7 @@ import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class ProductService implements IProductService{
 
     private final ExternalAPIFeign externalAPIFeign;
@@ -34,36 +36,45 @@ public class ProductService implements IProductService{
 
     public Mono<Map<String, Float>> getValueOfProductsAsync(List<String> listProducts) {
         return Flux.fromIterable(listProducts)
-                .flatMap(productId -> getPriceFromCacheOrFetch(productId))  // Obtén el precio desde la caché o API externa
+                .flatMap(productId -> getPriceFromCacheOrFetch(productId))  // Get the price from the cache or external API
                 .collectMap(ItemResponse::id,
                         item -> {
                             float price = item.price().floatValue();
-                            System.out.println(price);
                             return price;
                         },
                         LinkedHashMap::new);
     }
 
-    // Este método obtiene el precio desde la caché o realiza el llamado a la API externa si no está en caché
+    // This method retrieves the price from the cache or makes the call to the external API if it's not cached
     private Mono<ItemResponse> getPriceFromCacheOrFetch(String productId) {
-        return redisTemplate.opsForValue().get(productId)  // Primero intenta obtenerlo de la caché
-                .flatMap(price ->
-                        {
-                            float floatValue = Float.parseFloat(price);
-                            return Mono.just(new ItemResponse(productId, (int) floatValue));
-                        })  // Si existe, crea un ItemResponse desde la caché
-                .switchIfEmpty(fetchAndCacheProductPrice(productId));  // Si no está en la caché, realiza el llamado a la API externa
+        return redisTemplate.opsForValue().get(productId)  // First, attempts to get it from the cache
+                .flatMap(price -> {
+                    float floatValue = Float.parseFloat(price);
+                    return Mono.just(new ItemResponse(productId, (int) floatValue));  // If it exists, creates an ItemResponse from the cache
+                })
+                .switchIfEmpty(fetchAndCacheProductPrice(productId));  // If it's not in the cache, makes the call to the external API
     }
 
-    // Si el precio no está en caché, realiza el llamado a la API externa y lo guarda en Redis
+
+    // If the price is not cached, it makes the call to the external API and stores it in Redis
     private Mono<ItemResponse> fetchAndCacheProductPrice(String productId) {
-        return externalAPIWebflux.fetchItemPrice(productId)  // Realiza el llamado a la API externa
-                .map(item -> item.price().floatValue())
+        return externalAPIWebflux.fetchItemPrice(productId)  // Makes the call to the external API
+                .flatMap(item -> {
+                    // Check if the price is null before proceeding
+                    if (item.price() == null) {
+                        // If the price is null, do nothing and return Mono.empty()
+                        log.error("ProductId {} has a null price", productId);
+                        return Mono.empty();
+                    }
+                    // If the price is not null, process it and store it in the cache
+                    return Mono.just(item.price().floatValue());
+                })
                 .flatMap(price -> {
-                    // Cachea el precio en Redis
+                    // Cache the price in Redis
                     return redisTemplate.opsForValue()
-                            .set(productId, price.toString())  // Guarda el precio en Redis
-                            .thenReturn(new ItemResponse(productId, price.intValue()));  // Devuelve el objeto ItemResponse
+                            .set(productId, price.toString())  // Store the price in Redis
+                            .thenReturn(new ItemResponse(productId, price.intValue()));  // Return the ItemResponse object
                 });
     }
+
 }
