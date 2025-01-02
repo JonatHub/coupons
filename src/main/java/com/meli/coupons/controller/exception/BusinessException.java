@@ -1,4 +1,4 @@
-package com.meli.coupons.exception;
+package com.meli.coupons.controller.exception;
 
 public class BusinessException extends RuntimeException{
 

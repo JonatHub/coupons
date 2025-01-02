@@ -42,8 +42,7 @@ public class CouponController {
                     int totalAmount = selectedProducts.stream()
                             .mapToInt(productId -> itemsProducts.getOrDefault(productId, 0f).intValue())
                             .sum();
-                    var result = couponService.calculate(itemsProducts, items.amount().floatValue());
-                    return new ProductsResponse(result, totalAmount);
+                    return new ProductsResponse(selectedProducts, totalAmount);
                 })
                 .map(ResponseEntity::ok);
     }

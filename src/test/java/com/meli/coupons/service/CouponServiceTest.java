@@ -1,6 +1,6 @@
 package com.meli.coupons.service;
 
-import com.meli.coupons.exception.BusinessException;
+import com.meli.coupons.controller.exception.BusinessException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

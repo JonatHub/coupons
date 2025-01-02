@@ -1,4 +1,4 @@
-package com.meli.coupons.feign;
+package com.meli.coupons.service.integration;
 
 import com.meli.coupons.model.ItemResponse;
 import org.springframework.cloud.openfeign.FeignClient;

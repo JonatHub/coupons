@@ -1,7 +1,5 @@
-package com.meli.coupons.handlerException;
+package com.meli.coupons.controller.exception;
 
-import com.meli.coupons.exception.BusinessException;
-import feign.FeignException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -18,4 +16,6 @@ public class GlobalException {
     public ResponseEntity<String> handleGeneralException(Exception ex) {
         return new ResponseEntity<>("Error in API "+ex.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.meli.coupons.webflux;
+package com.meli.coupons.service.integration;
 
 import com.meli.coupons.model.ItemResponse;
 import org.springframework.stereotype.Component;

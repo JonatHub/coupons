@@ -1,6 +1,6 @@
 package com.meli.coupons.service;
 
-import com.meli.coupons.exception.BusinessException;
+import com.meli.coupons.controller.exception.BusinessException;
 import org.springframework.stereotype.Service;
 
 import java.util.LinkedHashMap;
