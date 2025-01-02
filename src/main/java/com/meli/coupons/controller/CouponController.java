@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Mono;
+
+import java.util.List;
 
 
 @RestController
@@ -29,6 +32,20 @@ public class CouponController {
                 .mapToInt(Float::intValue)
                 .sum());
         return ResponseEntity.ok(productsResponse);
+    }
+
+    @PostMapping("/async")
+    public Mono<ResponseEntity<ProductsResponse>> calculateCouponAsync(@RequestBody ItemRequest items) {
+        return productService.getValueOfProductsAsync(items.itemId())
+                .map(itemsProducts -> {
+                    List<String> selectedProducts = couponService.calculate(itemsProducts, items.amount().floatValue());
+                    int totalAmount = selectedProducts.stream()
+                            .mapToInt(productId -> itemsProducts.getOrDefault(productId, 0f).intValue())
+                            .sum();
+                    var result = couponService.calculate(itemsProducts, items.amount().floatValue());
+                    return new ProductsResponse(result, totalAmount);
+                })
+                .map(ResponseEntity::ok);
     }
 
 }
