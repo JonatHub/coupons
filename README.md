@@ -1,7 +1,7 @@
 
-# Coupons Application
+# Ejercicio entrevista: Cupón
 
-¡Bienvenido al proyecto **Coupons Application**! Esta aplicación está construida con **Spring Boot** y permite la gestión de cupones, utilizando **Java 17** y **Docker** para facilitar el despliegue y la ejecución.
+Esta aplicación está construida con **Spring Boot** y permite la generacion de cupones como ejercicio para el cargo de Ingeniero Senior, utilizando **Java 17** y **Docker** para facilitar el despliegue y la ejecución.
 
 ## Descripción
 
@@ -9,9 +9,10 @@ La aplicación proporciona funcionalidades para crear, gestionar y aplicar cupon
 
 ### Características
 
-- Gestión de cupones con diferentes tipos de descuento.
-- Soporte para la generación de cupones con fechas de expiración.
-- Integración fácil con aplicaciones frontend a través de una API RESTful.
+- Generacion de cupón para clientes de acuerdo al monto.
+- Peticiones **asincronas** para obtener los precios de los productos.
+- Manejo de **caché** con redis.
+- Integración fácil con aplicaciones frontend a través de una API **RESTful**.
 - Despliegue sencillo en contenedores **Docker**.
 - **Java 17** y **Spring Boot** como principales tecnologías.
 
@@ -21,6 +22,7 @@ La aplicación proporciona funcionalidades para crear, gestionar y aplicar cupon
 - **Spring Boot**: Framework para el desarrollo de aplicaciones backend.
 - **Docker**: Contenerización de la aplicación para facilitar su despliegue.
 - **Gradle**: Sistema de construcción y gestión de dependencias.
+- **Redis**: Manejo de caché.
 
 ## Requisitos
 
@@ -354,19 +356,38 @@ La aplicación ahora estará disponible en `http://localhost:8080`.
 }
 ```
 
-## Resultados
+## Pruebas de carga
 
-Especificaciones:
+Para poder testear los 100k rpm esperados se utilizó **Jmeter** en un computador local con las siguientes especificaciones:
 
 Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz   2.50 GHz
 RAM 8,00 GB
 
-![img.png](src/main/resources/images/img.png)
-
-![img_1.png](src/main/resources/images/img_1.png)
+En la configuración de Jmeter se utilizaron 10000 hilos con un periodo de subida de 60 segundos
 
 ![img.png](src/main/resources/images/jmeter.png)
 
-## Diagramas
+Los resultados fueron satisfactorios con un % de error de solo el 9,02% y un rendimiento de 289 peticiones/seg
 
-### Diagrama de componentes
+![img_1.png](src/main/resources/images/img_1.png)
+
+Adicionalmente se muestra visualmente usando **Redis insight** como guarda en caché los productos
+
+![img.png](src/main/resources/images/img.png)
+
+
+
+## Arquitectura del Proyecto
+
+El proyecto está diseñado siguiendo una arquitectura modular y organizada en varios paquetes principales:
+
+- **Controller**: Contiene la lógica para manejar las solicitudes HTTP, incluyendo excepciones globales y personalizadas (`GlobalException`, `BusinessException`).
+- **Service**: Define la lógica de negocio principal, separada en interfaces (`IProductService`, `ICouponService`) y sus implementaciones (`ProductService`, `CouponService`).
+- **Model**: Modelos de datos que representan las entradas y salidas de la API, como `ItemRequest`, `ItemResponse`, y `ProductsResponse`.
+- **Repository**: Gestiona la interacción con Redis a través de `RedisTemplate`.
+- **Configuration**: Configuración de Redis y serialización personalizada mediante `RedisConfig` y `FloatRedisSerializer`.
+- **ExternalAPI**: Comunicación con APIs externas para obtener información adicional, manejada por `ExternalAPIWebflux`.
+
+El diagrama PlantUML muestra las relaciones entre los paquetes y clases, destacando cómo cada componente interactúa de manera cohesiva dentro del sistema.
+
+![img.png](src/main/resources/images/plantuml.svg)

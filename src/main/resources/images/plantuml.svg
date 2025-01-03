@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="834px" preserveAspectRatio="none" style="width:3773px;height:834px;background:#FFFFFF;" version="1.1" viewBox="0 0 3773 834" width="3773px" zoomAndPan="magnify"><defs/><g><!--MD5=[1f2cfc53d9d308f53762fd0fcbaa4873]
+cluster Controller--><g id="cluster_Controller"><path d="M932.5,168 L1012.5,168 A3.75,3.75 0 0 1 1015,170.5 L1022,190.2969 L1581.5,190.2969 A2.5,2.5 0 0 1 1584,192.7969 L1584,643.5 A2.5,2.5 0 0 1 1581.5,646 L932.5,646 A2.5,2.5 0 0 1 930,643.5 L930,170.5 A2.5,2.5 0 0 1 932.5,168 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="930" x2="1022" y1="190.2969" y2="190.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="934" y="182.9951">Controller</text></g><!--MD5=[53a25ea2ba8a4a41e52527f6e62fce47]
+cluster Exception--><g id="cluster_Exception"><path d="M972.5,349 L1050.5,349 A3.75,3.75 0 0 1 1053,351.5 L1060,371.2969 L1541.5,371.2969 A2.5,2.5 0 0 1 1544,373.7969 L1544,619.5 A2.5,2.5 0 0 1 1541.5,622 L972.5,622 A2.5,2.5 0 0 1 970,619.5 L970,351.5 A2.5,2.5 0 0 1 972.5,349 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="970" x2="1060" y1="371.2969" y2="371.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="974" y="363.9951">Exception</text></g><!--MD5=[9dd75fd92da113d30380b27734fd2f01]
+cluster Service--><g id="cluster_Service"><path d="M1610.5,340.5 L1670.5,340.5 A3.75,3.75 0 0 1 1673,343 L1680,362.7969 L2776.5,362.7969 A2.5,2.5 0 0 1 2779,365.2969 L2779,816 A2.5,2.5 0 0 1 2776.5,818.5 L1610.5,818.5 A2.5,2.5 0 0 1 1608,816 L1608,343 A2.5,2.5 0 0 1 1610.5,340.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1608" x2="1680" y1="362.7969" y2="362.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1612" y="355.4951">Service</text></g><!--MD5=[15636c1ca4a123c16a2a1a8e90aca7a9]
+cluster Model--><g id="cluster_Model"><path d="M2805.5,695 L2853.5,695 A3.75,3.75 0 0 1 2856,697.5 L2863,717.2969 L3365.5,717.2969 A2.5,2.5 0 0 1 3368,719.7969 L3368,824.5 A2.5,2.5 0 0 1 3365.5,827 L2805.5,827 A2.5,2.5 0 0 1 2803,824.5 L2803,697.5 A2.5,2.5 0 0 1 2805.5,695 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2803" x2="2863" y1="717.2969" y2="717.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="2807" y="709.9951">Model</text></g><!--MD5=[71971f99a41bb66cf321ce46bb59f738]
+cluster Repository--><g id="cluster_Repository"><path d="M1610.5,176 L1696.5,176 A3.75,3.75 0 0 1 1699,178.5 L1706,198.2969 L1773.5,198.2969 A2.5,2.5 0 0 1 1776,200.7969 L1776,272.5 A2.5,2.5 0 0 1 1773.5,275 L1610.5,275 A2.5,2.5 0 0 1 1608,272.5 L1608,178.5 A2.5,2.5 0 0 1 1610.5,176 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1608" x2="1706" y1="198.2969" y2="198.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="1612" y="190.9951">Repository</text></g><!--MD5=[915f6a2b4bff9d90dc7327d570275f1b]
+cluster Configuration--><g id="cluster_Configuration"><path d="M8.5,6 L116.5,6 A3.75,3.75 0 0 1 119,8.5 L126,28.2969 L903.5,28.2969 A2.5,2.5 0 0 1 906,30.7969 L906,289 A2.5,2.5 0 0 1 903.5,291.5 L8.5,291.5 A2.5,2.5 0 0 1 6,289 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="126" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="10" y="20.9951">Configuration</text></g><!--MD5=[498c72440a6cf23dd5b6908d8e127dd2]
+cluster ExternalAPI--><g id="cluster_ExternalAPI"><path d="M3394.5,703.5 L3484.5,703.5 A3.75,3.75 0 0 1 3487,706 L3494,725.7969 L3763.5,725.7969 A2.5,2.5 0 0 1 3766,728.2969 L3766,816 A2.5,2.5 0 0 1 3763.5,818.5 L3394.5,818.5 A2.5,2.5 0 0 1 3392,816 L3392,706 A2.5,2.5 0 0 1 3394.5,703.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3392" x2="3494" y1="725.7969" y2="725.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="3396" y="718.4951">ExternalAPI</text></g><!--MD5=[80503a319233162688d6dd1d3dfd600f]
+class CouponController--><g id="elem_CouponController"><rect codeLine="17" fill="#F1F1F1" height="64.2969" id="CouponController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="621" x="946.5" y="203"/><ellipse cx="1191.75" cy="219" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1194.7188,224.6406 Q1194.1406,224.9375 1193.5,225.0781 Q1192.8594,225.2344 1192.1563,225.2344 Q1189.6563,225.2344 1188.3281,223.5938 Q1187.0156,221.9375 1187.0156,218.8125 Q1187.0156,215.6875 1188.3281,214.0313 Q1189.6563,212.375 1192.1563,212.375 Q1192.8594,212.375 1193.5,212.5313 Q1194.1563,212.6875 1194.7188,212.9844 L1194.7188,215.7031 Q1194.0938,215.125 1193.5,214.8594 Q1192.9063,214.5781 1192.2813,214.5781 Q1190.9375,214.5781 1190.25,215.6563 Q1189.5625,216.7188 1189.5625,218.8125 Q1189.5625,220.9063 1190.25,221.9844 Q1190.9375,223.0469 1192.2813,223.0469 Q1192.9063,223.0469 1193.5,222.7813 Q1194.0938,222.5 1194.7188,221.9219 L1194.7188,224.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1212.25" y="223.8467">CouponController</text><line style="stroke:#181818;stroke-width:0.5;" x1="947.5" x2="1566.5" y1="235" y2="235"/><line style="stroke:#181818;stroke-width:0.5;" x1="947.5" x2="1566.5" y1="243" y2="243"/><ellipse cx="957.5" cy="256.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="595" x="966.5" y="259.9951">calculateCoupon(ItemRequest items): Mono&lt;ResponseEntity&lt;ProductsResponse&gt;&gt;</text></g><!--MD5=[b919a7c26bbccd6e1184f47b959c1315]
+class GlobalException--><g id="elem_GlobalException"><rect codeLine="6" fill="#F1F1F1" height="64.2969" id="GlobalException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="457" x="1028.5" y="384"/><ellipse cx="1197.25" cy="400" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1200.2188,405.6406 Q1199.6406,405.9375 1199,406.0781 Q1198.3594,406.2344 1197.6563,406.2344 Q1195.1563,406.2344 1193.8281,404.5938 Q1192.5156,402.9375 1192.5156,399.8125 Q1192.5156,396.6875 1193.8281,395.0313 Q1195.1563,393.375 1197.6563,393.375 Q1198.3594,393.375 1199,393.5313 Q1199.6563,393.6875 1200.2188,393.9844 L1200.2188,396.7031 Q1199.5938,396.125 1199,395.8594 Q1198.4063,395.5781 1197.7813,395.5781 Q1196.4375,395.5781 1195.75,396.6563 Q1195.0625,397.7188 1195.0625,399.8125 Q1195.0625,401.9063 1195.75,402.9844 Q1196.4375,404.0469 1197.7813,404.0469 Q1198.4063,404.0469 1199,403.7813 Q1199.5938,403.5 1200.2188,402.9219 L1200.2188,405.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1217.75" y="404.8467">GlobalException</text><line style="stroke:#181818;stroke-width:0.5;" x1="1029.5" x2="1484.5" y1="416" y2="416"/><line style="stroke:#181818;stroke-width:0.5;" x1="1029.5" x2="1484.5" y1="424" y2="424"/><ellipse cx="1039.5" cy="437.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="431" x="1048.5" y="440.9951">handleGlobalException(exception: Exception): ResponseEntity</text></g><!--MD5=[80c1ad5c0fd067f32708b98215ed2a65]
+class BusinessException--><g id="elem_BusinessException"><rect codeLine="9" fill="#F1F1F1" height="64.2969" id="BusinessException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="542" x="986" y="542"/><ellipse cx="1186.75" cy="558" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1189.7188,563.6406 Q1189.1406,563.9375 1188.5,564.0781 Q1187.8594,564.2344 1187.1563,564.2344 Q1184.6563,564.2344 1183.3281,562.5938 Q1182.0156,560.9375 1182.0156,557.8125 Q1182.0156,554.6875 1183.3281,553.0313 Q1184.6563,551.375 1187.1563,551.375 Q1187.8594,551.375 1188.5,551.5313 Q1189.1563,551.6875 1189.7188,551.9844 L1189.7188,554.7031 Q1189.0938,554.125 1188.5,553.8594 Q1187.9063,553.5781 1187.2813,553.5781 Q1185.9375,553.5781 1185.25,554.6563 Q1184.5625,555.7188 1184.5625,557.8125 Q1184.5625,559.9063 1185.25,560.9844 Q1185.9375,562.0469 1187.2813,562.0469 Q1187.9063,562.0469 1188.5,561.7813 Q1189.0938,561.5 1189.7188,560.9219 L1189.7188,563.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1207.25" y="562.8467">BusinessException</text><line style="stroke:#181818;stroke-width:0.5;" x1="987" x2="1527" y1="574" y2="574"/><line style="stroke:#181818;stroke-width:0.5;" x1="987" x2="1527" y1="582" y2="582"/><ellipse cx="997" cy="595.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="516" x="1006" y="598.9951">handleBusinessException(exception: BusinessException): ResponseEntity</text></g><!--MD5=[39b38f0a8098f4e98fb784bc0dbda59f]
+class IProductService--><g id="elem_IProductService"><rect codeLine="23" fill="#F1F1F1" height="80.5938" id="IProductService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="626" x="1860" y="375.5"/><ellipse cx="2115.25" cy="391.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2111.1719,387.2656 L2111.1719,385.1094 L2118.5625,385.1094 L2118.5625,387.2656 L2116.0938,387.2656 L2116.0938,395.3438 L2118.5625,395.3438 L2118.5625,397.5 L2111.1719,397.5 L2111.1719,395.3438 L2113.6406,395.3438 L2113.6406,387.2656 L2111.1719,387.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="107" x="2135.75" y="396.3467">IProductService</text><line style="stroke:#181818;stroke-width:0.5;" x1="1861" x2="2485" y1="407.5" y2="407.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="1861" x2="2485" y1="415.5" y2="415.5"/><ellipse cx="1871" cy="429.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="531" x="1880" y="432.4951">getValueOfProducts(listProducts: List&lt;String&gt;): Mono&lt;Map&lt;String, Float&gt;&gt;</text><ellipse cx="1871" cy="445.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="600" x="1880" y="448.792">calculateCoupon(productIds: List&lt;String&gt;, amount: float): Mono&lt;ProductsResponse&gt;</text></g><!--MD5=[30606ba66f84899622653317bc6ea863]
+class ICouponService--><g id="elem_ICouponService"><rect codeLine="28" fill="#F1F1F1" height="64.2969" id="ICouponService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="477" x="1624.5" y="542"/><ellipse cx="1804.75" cy="558" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1800.6719,553.7656 L1800.6719,551.6094 L1808.0625,551.6094 L1808.0625,553.7656 L1805.5938,553.7656 L1805.5938,561.8438 L1808.0625,561.8438 L1808.0625,564 L1800.6719,564 L1800.6719,561.8438 L1803.1406,561.8438 L1803.1406,553.7656 L1800.6719,553.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="108" x="1825.25" y="562.8467">ICouponService</text><line style="stroke:#181818;stroke-width:0.5;" x1="1625.5" x2="2100.5" y1="574" y2="574"/><line style="stroke:#181818;stroke-width:0.5;" x1="1625.5" x2="2100.5" y1="582" y2="582"/><ellipse cx="1635.5" cy="595.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="451" x="1644.5" y="598.9951">calculate(items: Map&lt;String, Float&gt;, amount: Float): List&lt;String&gt;</text></g><!--MD5=[58a28f2d5507ae66b1dc95167690ce61]
+class ProductService--><g id="elem_ProductService"><rect codeLine="32" fill="#F1F1F1" height="80.5938" id="ProductService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="626" x="2137" y="533.5"/><ellipse cx="2393.75" cy="549.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2396.7188,555.1406 Q2396.1406,555.4375 2395.5,555.5781 Q2394.8594,555.7344 2394.1563,555.7344 Q2391.6563,555.7344 2390.3281,554.0938 Q2389.0156,552.4375 2389.0156,549.3125 Q2389.0156,546.1875 2390.3281,544.5313 Q2391.6563,542.875 2394.1563,542.875 Q2394.8594,542.875 2395.5,543.0313 Q2396.1563,543.1875 2396.7188,543.4844 L2396.7188,546.2031 Q2396.0938,545.625 2395.5,545.3594 Q2394.9063,545.0781 2394.2813,545.0781 Q2392.9375,545.0781 2392.25,546.1563 Q2391.5625,547.2188 2391.5625,549.3125 Q2391.5625,551.4063 2392.25,552.4844 Q2392.9375,553.5469 2394.2813,553.5469 Q2394.9063,553.5469 2395.5,553.2813 Q2396.0938,553 2396.7188,552.4219 L2396.7188,555.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="2414.25" y="554.3467">ProductService</text><line style="stroke:#181818;stroke-width:0.5;" x1="2138" x2="2762" y1="565.5" y2="565.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="2138" x2="2762" y1="573.5" y2="573.5"/><ellipse cx="2148" cy="587.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="531" x="2157" y="590.4951">getValueOfProducts(listProducts: List&lt;String&gt;): Mono&lt;Map&lt;String, Float&gt;&gt;</text><ellipse cx="2148" cy="603.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="600" x="2157" y="606.792">calculateCoupon(productIds: List&lt;String&gt;, amount: float): Mono&lt;ProductsResponse&gt;</text></g><!--MD5=[1ae4e01c512b8a99b751040b972b981a]
+class CouponService--><g id="elem_CouponService"><rect codeLine="37" fill="#F1F1F1" height="64.2969" id="CouponService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="477" x="1644.5" y="738.5"/><ellipse cx="1826.25" cy="754.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1829.2188,760.1406 Q1828.6406,760.4375 1828,760.5781 Q1827.3594,760.7344 1826.6563,760.7344 Q1824.1563,760.7344 1822.8281,759.0938 Q1821.5156,757.4375 1821.5156,754.3125 Q1821.5156,751.1875 1822.8281,749.5313 Q1824.1563,747.875 1826.6563,747.875 Q1827.3594,747.875 1828,748.0313 Q1828.6563,748.1875 1829.2188,748.4844 L1829.2188,751.2031 Q1828.5938,750.625 1828,750.3594 Q1827.4063,750.0781 1826.7813,750.0781 Q1825.4375,750.0781 1824.75,751.1563 Q1824.0625,752.2188 1824.0625,754.3125 Q1824.0625,756.4063 1824.75,757.4844 Q1825.4375,758.5469 1826.7813,758.5469 Q1827.4063,758.5469 1828,758.2813 Q1828.5938,758 1829.2188,757.4219 L1829.2188,760.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1846.75" y="759.3467">CouponService</text><line style="stroke:#181818;stroke-width:0.5;" x1="1645.5" x2="2120.5" y1="770.5" y2="770.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="1645.5" x2="2120.5" y1="778.5" y2="778.5"/><ellipse cx="1655.5" cy="792.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="451" x="1664.5" y="795.4951">calculate(items: Map&lt;String, Float&gt;, amount: Float): List&lt;String&gt;</text></g><!--MD5=[492f26737b7f0bf8b5459c994dcb9684]
+class ProductsResponse--><g id="elem_ProductsResponse"><rect codeLine="43" fill="#F1F1F1" height="80.5938" id="ProductsResponse" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="3018.5" y="730"/><ellipse cx="3033.5" cy="746" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3036.4688,751.6406 Q3035.8906,751.9375 3035.25,752.0781 Q3034.6094,752.2344 3033.9063,752.2344 Q3031.4063,752.2344 3030.0781,750.5938 Q3028.7656,748.9375 3028.7656,745.8125 Q3028.7656,742.6875 3030.0781,741.0313 Q3031.4063,739.375 3033.9063,739.375 Q3034.6094,739.375 3035.25,739.5313 Q3035.9063,739.6875 3036.4688,739.9844 L3036.4688,742.7031 Q3035.8438,742.125 3035.25,741.8594 Q3034.6563,741.5781 3034.0313,741.5781 Q3032.6875,741.5781 3032,742.6563 Q3031.3125,743.7188 3031.3125,745.8125 Q3031.3125,747.9063 3032,748.9844 Q3032.6875,750.0469 3034.0313,750.0469 Q3034.6563,750.0469 3035.25,749.7813 Q3035.8438,749.5 3036.4688,748.9219 L3036.4688,751.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="3047.5" y="750.8467">ProductsResponse</text><line style="stroke:#181818;stroke-width:0.5;" x1="3019.5" x2="3182.5" y1="762" y2="762"/><ellipse cx="3029.5" cy="775.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3038.5" y="778.9951">itemId: List&lt;String&gt;</text><ellipse cx="3029.5" cy="791.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="3038.5" y="795.292">total: Integer</text><line style="stroke:#181818;stroke-width:0.5;" x1="3019.5" x2="3182.5" y1="802.5938" y2="802.5938"/></g><!--MD5=[c1ba489c7386026ac3098d7cfefad324]
+class ItemResponse--><g id="elem_ItemResponse"><rect codeLine="48" fill="#F1F1F1" height="80.5938" id="ItemResponse" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133" x="3218.5" y="730"/><ellipse cx="3233.5" cy="746" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3236.4688,751.6406 Q3235.8906,751.9375 3235.25,752.0781 Q3234.6094,752.2344 3233.9063,752.2344 Q3231.4063,752.2344 3230.0781,750.5938 Q3228.7656,748.9375 3228.7656,745.8125 Q3228.7656,742.6875 3230.0781,741.0313 Q3231.4063,739.375 3233.9063,739.375 Q3234.6094,739.375 3235.25,739.5313 Q3235.9063,739.6875 3236.4688,739.9844 L3236.4688,742.7031 Q3235.8438,742.125 3235.25,741.8594 Q3234.6563,741.5781 3234.0313,741.5781 Q3232.6875,741.5781 3232,742.6563 Q3231.3125,743.7188 3231.3125,745.8125 Q3231.3125,747.9063 3232,748.9844 Q3232.6875,750.0469 3234.0313,750.0469 Q3234.6563,750.0469 3235.25,749.7813 Q3235.8438,749.5 3236.4688,748.9219 L3236.4688,751.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="3247.5" y="750.8467">ItemResponse</text><line style="stroke:#181818;stroke-width:0.5;" x1="3219.5" x2="3350.5" y1="762" y2="762"/><ellipse cx="3229.5" cy="775.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="3238.5" y="778.9951">id: String</text><ellipse cx="3229.5" cy="791.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="3238.5" y="795.292">price: Integer</text><line style="stroke:#181818;stroke-width:0.5;" x1="3219.5" x2="3350.5" y1="802.5938" y2="802.5938"/></g><!--MD5=[725d444f9aff419daab547bef97b6e98]
+class ItemRequest--><g id="elem_ItemRequest"><rect codeLine="53" fill="#F1F1F1" height="80.5938" id="ItemRequest" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="2819" y="730"/><ellipse cx="2853.35" cy="746" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2856.3188,751.6406 Q2855.7406,751.9375 2855.1,752.0781 Q2854.4594,752.2344 2853.7563,752.2344 Q2851.2563,752.2344 2849.9281,750.5938 Q2848.6156,748.9375 2848.6156,745.8125 Q2848.6156,742.6875 2849.9281,741.0313 Q2851.2563,739.375 2853.7563,739.375 Q2854.4594,739.375 2855.1,739.5313 Q2855.7563,739.6875 2856.3188,739.9844 L2856.3188,742.7031 Q2855.6938,742.125 2855.1,741.8594 Q2854.5063,741.5781 2853.8813,741.5781 Q2852.5375,741.5781 2851.85,742.6563 Q2851.1625,743.7188 2851.1625,745.8125 Q2851.1625,747.9063 2851.85,748.9844 Q2852.5375,750.0469 2853.8813,750.0469 Q2854.5063,750.0469 2855.1,749.7813 Q2855.6938,749.5 2856.3188,748.9219 L2856.3188,751.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="2871.65" y="750.8467">ItemRequest</text><line style="stroke:#181818;stroke-width:0.5;" x1="2820" x2="2982" y1="762" y2="762"/><ellipse cx="2830" cy="775.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="2839" y="778.9951">itemId: List&lt;String&gt;</text><ellipse cx="2830" cy="791.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="2839" y="795.292">amount: Integer</text><line style="stroke:#181818;stroke-width:0.5;" x1="2820" x2="2982" y1="802.5938" y2="802.5938"/></g><!--MD5=[5acf7d068e92c33ab916836b9863d43f]
+class RedisTemplate--><g id="elem_RedisTemplate"><rect codeLine="60" fill="#F1F1F1" height="48" id="RedisTemplate" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="1624" y="211"/><ellipse cx="1639" cy="227" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1641.9688,232.6406 Q1641.3906,232.9375 1640.75,233.0781 Q1640.1094,233.2344 1639.4063,233.2344 Q1636.9063,233.2344 1635.5781,231.5938 Q1634.2656,229.9375 1634.2656,226.8125 Q1634.2656,223.6875 1635.5781,222.0313 Q1636.9063,220.375 1639.4063,220.375 Q1640.1094,220.375 1640.75,220.5313 Q1641.4063,220.6875 1641.9688,220.9844 L1641.9688,223.7031 Q1641.3438,223.125 1640.75,222.8594 Q1640.1563,222.5781 1639.5313,222.5781 Q1638.1875,222.5781 1637.5,223.6563 Q1636.8125,224.7188 1636.8125,226.8125 Q1636.8125,228.9063 1637.5,229.9844 Q1638.1875,231.0469 1639.5313,231.0469 Q1640.1563,231.0469 1640.75,230.7813 Q1641.3438,230.5 1641.9688,229.9219 L1641.9688,232.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1653" y="231.8467">RedisTemplate</text><line style="stroke:#181818;stroke-width:0.5;" x1="1625" x2="1759" y1="243" y2="243"/><line style="stroke:#181818;stroke-width:0.5;" x1="1625" x2="1759" y1="251" y2="251"/></g><!--MD5=[0d87eab91a9c8141b8dbf53bdd665616]
+class FloatRedisSerializer--><g id="elem_FloatRedisSerializer"><rect codeLine="64" fill="#F1F1F1" height="80.5938" id="FloatRedisSerializer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="243" x="334.5" y="194.5"/><ellipse cx="384.75" cy="210.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M387.7188,216.1406 Q387.1406,216.4375 386.5,216.5781 Q385.8594,216.7344 385.1563,216.7344 Q382.6563,216.7344 381.3281,215.0938 Q380.0156,213.4375 380.0156,210.3125 Q380.0156,207.1875 381.3281,205.5313 Q382.6563,203.875 385.1563,203.875 Q385.8594,203.875 386.5,204.0313 Q387.1563,204.1875 387.7188,204.4844 L387.7188,207.2031 Q387.0938,206.625 386.5,206.3594 Q385.9063,206.0781 385.2813,206.0781 Q383.9375,206.0781 383.25,207.1563 Q382.5625,208.2188 382.5625,210.3125 Q382.5625,212.4063 383.25,213.4844 Q383.9375,214.5469 385.2813,214.5469 Q385.9063,214.5469 386.5,214.2813 Q387.0938,214 387.7188,213.4219 L387.7188,216.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="405.25" y="215.3467">FloatRedisSerializer</text><line style="stroke:#181818;stroke-width:0.5;" x1="335.5" x2="576.5" y1="226.5" y2="226.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="335.5" x2="576.5" y1="234.5" y2="234.5"/><ellipse cx="345.5" cy="248.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="354.5" y="251.4951">serialize(obj: Object): byte[]</text><ellipse cx="345.5" cy="264.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="354.5" y="267.792">deserialize(data: byte[]): Object</text></g><!--MD5=[8274d16dbfe06e54122602c22daad8d6]
+class RedisConfig--><g id="elem_RedisConfig"><rect codeLine="69" fill="#F1F1F1" height="64.2969" id="RedisConfig" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="867" x="22.5" y="41"/><ellipse cx="410.25" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M413.2188,62.6406 Q412.6406,62.9375 412,63.0781 Q411.3594,63.2344 410.6563,63.2344 Q408.1563,63.2344 406.8281,61.5938 Q405.5156,59.9375 405.5156,56.8125 Q405.5156,53.6875 406.8281,52.0313 Q408.1563,50.375 410.6563,50.375 Q411.3594,50.375 412,50.5313 Q412.6563,50.6875 413.2188,50.9844 L413.2188,53.7031 Q412.5938,53.125 412,52.8594 Q411.4063,52.5781 410.7813,52.5781 Q409.4375,52.5781 408.75,53.6563 Q408.0625,54.7188 408.0625,56.8125 Q408.0625,58.9063 408.75,59.9844 Q409.4375,61.0469 410.7813,61.0469 Q411.4063,61.0469 412,60.7813 Q412.5938,60.5 413.2188,59.9219 L413.2188,62.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="430.75" y="61.8467">RedisConfig</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="888.5" y1="73" y2="73"/><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="888.5" y1="81" y2="81"/><ellipse cx="33.5" cy="94.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="841" x="42.5" y="97.9951">reactiveRedisTemplate(ReactiveRedisConnectionFactory redisConnectionFactory): ReactiveRedisTemplate&lt;String, Float&gt;</text></g><!--MD5=[db530257e1b5fe163a890498ae298760]
+class ExternalAPIWebflux--><g id="elem_ExternalAPIWebflux"><rect codeLine="75" fill="#F1F1F1" height="64.2969" id="ExternalAPIWebflux" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="342" x="3408" y="738.5"/><ellipse cx="3509.75" cy="754.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3512.7188,760.1406 Q3512.1406,760.4375 3511.5,760.5781 Q3510.8594,760.7344 3510.1563,760.7344 Q3507.6563,760.7344 3506.3281,759.0938 Q3505.0156,757.4375 3505.0156,754.3125 Q3505.0156,751.1875 3506.3281,749.5313 Q3507.6563,747.875 3510.1563,747.875 Q3510.8594,747.875 3511.5,748.0313 Q3512.1563,748.1875 3512.7188,748.4844 L3512.7188,751.2031 Q3512.0938,750.625 3511.5,750.3594 Q3510.9063,750.0781 3510.2813,750.0781 Q3508.9375,750.0781 3508.25,751.1563 Q3507.5625,752.2188 3507.5625,754.3125 Q3507.5625,756.4063 3508.25,757.4844 Q3508.9375,758.5469 3510.2813,758.5469 Q3510.9063,758.5469 3511.5,758.2813 Q3512.0938,758 3512.7188,757.4219 L3512.7188,760.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="3530.25" y="759.3467">ExternalAPIWebflux</text><line style="stroke:#181818;stroke-width:0.5;" x1="3409" x2="3749" y1="770.5" y2="770.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="3409" x2="3749" y1="778.5" y2="778.5"/><ellipse cx="3419" cy="792.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="316" x="3428" y="795.4951">getProductFromExternalAPI(id: Long): Product</text></g><!--MD5=[1a2f34b42f53016f94ec5c61a9d4a02d]
+link GlobalException to BusinessException--><g id="link_GlobalException_BusinessException"><path codeLine="14" d="M1257,448.19 C1257,473.7 1257,509.81 1257,536.63 " fill="none" id="GlobalException-to-BusinessException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1257,541.86,1261,532.86,1257,536.86,1253,532.86,1257,541.86" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1258" y="499.5669">Usa</text></g><!--MD5=[750dd224bf555ce9702866bc4fdbb5ec]
+reverse link IProductService to ProductService--><g id="link_IProductService_ProductService"><path d="M2260.72,466.4 C2299.15,488.04 2343.63,513.1 2379.82,533.48 " fill="none" id="IProductService-backto-ProductService" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2257.25,472.48,2243.26,456.57,2264.12,460.28,2257.25,472.48" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[51394eeace285c5ff337699a76c074b7]
+link IProductService to ProductService--><g id="link_IProductService_ProductService"><path codeLine="83" d="M2262.29,456.66 C2281.59,465.94 2301.69,476.15 2320,486.5 C2343.56,499.82 2368.52,515.9 2390.2,530.57 " fill="none" id="IProductService-to-ProductService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2394.49,533.49,2389.293,525.124,2390.354,530.6804,2384.7976,531.7415,2394.49,533.49" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="2346" y="499.5669">Implementa</text></g><!--MD5=[93f49b398abd9d33efd3e169c36974c7]
+reverse link ICouponService to CouponService--><g id="link_ICouponService_CouponService"><path d="M1848.21,625.83 C1845.13,642.78 1843.69,661.75 1847,679 C1850.91,699.43 1859.38,721.12 1867.11,738.14 " fill="none" id="ICouponService-backto-CouponService" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1841.44,624.02,1852.67,606.05,1855.1,627.1,1841.44,624.02" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fdcd5d8a77e7d3a386bc9760f08e0534]
+link ICouponService to CouponService--><g id="link_ICouponService_CouponService"><path codeLine="84" d="M1866.21,606.25 C1869.77,640.84 1875.5,696.54 1879.25,733.08 " fill="none" id="ICouponService-to-CouponService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1879.79,738.33,1882.8427,728.9662,1879.2755,733.3565,1874.8851,729.7894,1879.79,738.33" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="1874" y="675.0669">Implementa</text></g><!--MD5=[239f3adab8f38fb557c30dafe1ad0afc]
+link CouponController to IProductService--><g id="link_CouponController_IProductService"><path codeLine="81" d="M1415.77,267.03 C1568.05,296.78 1798.82,341.88 1965.57,374.47 " fill="none" id="CouponController-to-IProductService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1970.48,375.43,1962.4138,369.7788,1965.5727,374.4714,1960.8801,377.6304,1970.48,375.43" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="1688" y="320.5669">Llama a</text></g><!--MD5=[9998f839db28bedaaf49219a4634ebcb]
+link IProductService to ICouponService--><g id="link_IProductService_ICouponService"><path codeLine="82" d="M2094.37,456.57 C2043.46,482.19 1977.89,515.19 1929.56,539.51 " fill="none" id="IProductService-to-ICouponService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1924.93,541.83,1934.7669,541.3451,1929.3935,539.5768,1931.1619,534.2035,1924.93,541.83" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="2028" y="499.5669">Llama a</text></g><!--MD5=[dbb2cc894fb1ed0e5a9ac383d637eef2]
+link ProductService to ExternalAPIWebflux--><g id="link_ProductService_ExternalAPIWebflux"><path codeLine="86" d="M2763.24,590.52 C2942.75,605.01 3170.85,633 3368,687 C3414.84,699.83 3465.59,719.48 3505.57,736.38 " fill="none" id="ProductService-to-ExternalAPIWebflux" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3510.39,738.43,3503.6555,731.2435,3505.784,736.4846,3500.5428,738.6131,3510.39,738.43" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="3320" y="675.0669">Llama a</text></g><!--MD5=[3298bf8e397f32c9e909dba0246e0b31]
+link ProductService to ProductsResponse--><g id="link_ProductService_ProductsResponse"><path codeLine="87" d="M2763.18,611.22 C2843.24,627.78 2927.43,651.9 3001,687 C3021.41,696.74 3041.21,711.54 3057.72,725.94 " fill="none" id="ProductService-to-ProductsResponse" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3061.85,729.58,3057.7446,720.6276,3058.0996,726.2733,3052.4539,726.6283,3061.85,729.58" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="2974" y="675.0669">Usa</text></g><!--MD5=[64fb833196f1f4a36a35e3a759b011d3]
+link ProductService to ItemResponse--><g id="link_ProductService_ItemResponse"><path codeLine="88" d="M2763.43,602.19 C2933.69,620.78 3124.67,648.97 3201,687 C3219.72,696.33 3236.9,711.38 3250.77,726.09 " fill="none" id="ProductService-to-ItemResponse" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3254.23,729.82,3251.0315,720.505,3250.8256,726.1581,3245.1724,725.9521,3254.23,729.82" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="3181" y="675.0669">Usa</text></g><!--MD5=[b50beab37ecccaad696e567967d2ab05]
+link RedisConfig to FloatRedisSerializer--><g id="link_RedisConfig_FloatRedisSerializer"><path codeLine="90" d="M456,105.23 C456,129.1 456,162.34 456,189.07 " fill="none" id="RedisConfig-to-FloatRedisSerializer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="456,194.33,460,185.33,456,189.33,452,185.33,456,194.33" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="457" y="148.0669">Usa</text></g><!--MD5=[2e56324f426ab3ea2f575d41ace2346e]
+link RedisConfig to RedisTemplate--><g id="link_RedisConfig_RedisTemplate"><path codeLine="91" d="M889.6,83.96 C1151.82,94.46 1458.89,115.97 1584,160 C1613.35,170.33 1642.19,190.77 1662.67,207.55 " fill="none" id="RedisConfig-to-RedisTemplate" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1666.65,210.86,1662.2741,202.0367,1662.8007,207.6689,1657.1684,208.1955,1666.65,210.86" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1553" y="148.0669">Configura</text></g><!--MD5=[26d6acbef8da67ff5812c49c980a2063]
+link RedisConfig to CouponController--><g id="link_RedisConfig_CouponController"><path codeLine="94" d="M622.31,105 C707.26,121.04 812.23,141.16 906,160 C972.22,173.31 1045.32,188.62 1107.6,201.85 " fill="none" id="RedisConfig-to-CouponController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1112.82,202.96,1104.8533,197.1694,1107.9302,201.9163,1103.1833,204.9931,1112.82,202.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="858" y="148.0669">Configura RedisTemplate</text></g><!--MD5=[66f184251f04ee02031493e36e6b6acb]
+link CouponController to GlobalException--><g id="link_CouponController_GlobalException"><path codeLine="96" d="M1257,267.18 C1257,298.27 1257,345.99 1257,378.75 " fill="none" id="CouponController-to-GlobalException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1257,383.88,1261,374.88,1257,378.88,1253,374.88,1257,383.88" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="1258" y="320.5669">Maneja excepciones</text></g><!--MD5=[1c556144f54e0a6ae7524846a2660416]
+@startuml
+' Definición de paquetes y disposición vertical
+skinparam layout vcompact
+
+package "Controller" {
+  package "Exception" {
+    class GlobalException {
+      +handleGlobalException(exception: Exception): ResponseEntity
+    }
+    class BusinessException {
+      +handleBusinessException(exception: BusinessException): ResponseEntity
+    }
+
+    ' Relación donde GlobalException usa BusinessException
+    GlobalException - -> BusinessException : Usa
+  }
+
+  class CouponController {
+    +calculateCoupon(ItemRequest items): Mono<ResponseEntity<ProductsResponse>>
+  }
+}
+
+package "Service" {
+  interface IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  interface ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+
+  class ProductService implements IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  class CouponService implements ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+}
+
+package "Model" {
+  class ProductsResponse {
+    +itemId: List<String>
+    +total: Integer
+  }
+
+  class ItemResponse {
+    +id: String
+    +price: Integer
+  }
+
+  class ItemRequest {
+    +itemId: List<String>
+    +amount: Integer
+  }
+}
+
+package "Repository" {
+  class RedisTemplate
+}
+
+package "Configuration" {
+  class FloatRedisSerializer {
+    +serialize(obj: Object): byte[]
+    +deserialize(data: byte[]): Object
+  }
+
+  class RedisConfig {
+    +reactiveRedisTemplate(ReactiveRedisConnectionFactory redisConnectionFactory): ReactiveRedisTemplate<String, Float>
+  }
+}
+
+package "ExternalAPI" {
+  class ExternalAPIWebflux {
+    +getProductFromExternalAPI(id: Long): Product
+  }
+}
+
+' Relaciones entre clases
+CouponController - -> IProductService : Llama a
+IProductService - -> ICouponService : Llama a
+IProductService - -> ProductService : Implementa
+ICouponService - -> CouponService : Implementa
+
+ProductService - -> ExternalAPIWebflux : Llama a
+ProductService - -> ProductsResponse : Usa
+ProductService - -> ItemResponse : Usa
+
+RedisConfig - -> FloatRedisSerializer : Usa
+RedisConfig - -> RedisTemplate : Configura
+
+' Relación entre RedisConfig y CouponController
+RedisConfig - -> CouponController : Configura RedisTemplate
+
+CouponController - -> GlobalException : Maneja excepciones
+@enduml
+
+@startuml
+skinparam layout vcompact
+
+package "Controller" {
+  package "Exception" {
+    class GlobalException {
+      +handleGlobalException(exception: Exception): ResponseEntity
+    }
+    class BusinessException {
+      +handleBusinessException(exception: BusinessException): ResponseEntity
+    }
+
+    GlobalException - -> BusinessException : Usa
+  }
+
+  class CouponController {
+    +calculateCoupon(ItemRequest items): Mono<ResponseEntity<ProductsResponse>>
+  }
+}
+
+package "Service" {
+  interface IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  interface ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+
+  class ProductService implements IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  class CouponService implements ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+}
+
+package "Model" {
+  class ProductsResponse {
+    +itemId: List<String>
+    +total: Integer
+  }
+
+  class ItemResponse {
+    +id: String
+    +price: Integer
+  }
+
+  class ItemRequest {
+    +itemId: List<String>
+    +amount: Integer
+  }
+}
+
+package "Repository" {
+  class RedisTemplate
+}
+
+package "Configuration" {
+  class FloatRedisSerializer {
+    +serialize(obj: Object): byte[]
+    +deserialize(data: byte[]): Object
+  }
+
+  class RedisConfig {
+    +reactiveRedisTemplate(ReactiveRedisConnectionFactory redisConnectionFactory): ReactiveRedisTemplate<String, Float>
+  }
+}
+
+package "ExternalAPI" {
+  class ExternalAPIWebflux {
+    +getProductFromExternalAPI(id: Long): Product
+  }
+}
+
+CouponController - -> IProductService : Llama a
+IProductService - -> ICouponService : Llama a
+IProductService - -> ProductService : Implementa
+ICouponService - -> CouponService : Implementa
+
+ProductService - -> ExternalAPIWebflux : Llama a
+ProductService - -> ProductsResponse : Usa
+ProductService - -> ItemResponse : Usa
+
+RedisConfig - -> FloatRedisSerializer : Usa
+RedisConfig - -> RedisTemplate : Configura
+
+RedisConfig - -> CouponController : Configura RedisTemplate
+
+CouponController - -> GlobalException : Maneja excepciones
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
