@@ -1,7 +1,7 @@
 package com.meli.coupons.service;
 
-import com.meli.coupons.service.integration.ExternalAPIFeign;
 import com.meli.coupons.model.ItemResponse;
+import com.meli.coupons.model.ProductsResponse;
 import com.meli.coupons.service.integration.ExternalAPIWebflux;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,22 +19,25 @@ import java.util.Map;
 @Slf4j
 public class ProductService implements IProductService{
 
-    private final ExternalAPIFeign externalAPIFeign;
     private final ExternalAPIWebflux externalAPIWebflux;
     private final ReactiveRedisTemplate<String, String> redisTemplate;
+    private final ICouponService couponService;
 
     @Override
-    public Map<String, Float> getValueOfProducts(List<String> listProducts) {
-        Map<String,Float> items = new LinkedHashMap<>();
-        List<String> list;
-        for (String id:listProducts){
-            var item = externalAPIFeign.getItemById(id);
-            items.put(id,item.price().floatValue());
-        }
-        return items;
+    public Mono<ProductsResponse> calculateCoupon(List<String> productIds, float amount) {
+        return getValueOfProducts(productIds)
+                .map(itemsProducts -> {
+                    // Usa couponService para obtener los productos seleccionados
+                    List<String> selectedProducts = couponService.calculate(itemsProducts, amount);
+                    // Calcula la suma total de los productos seleccionados
+                    int totalAmount = selectedProducts.stream()
+                            .mapToInt(productId -> itemsProducts.getOrDefault(productId, 0f).intValue())
+                            .sum();
+                    return new ProductsResponse(selectedProducts, totalAmount);
+                });
     }
 
-    public Mono<Map<String, Float>> getValueOfProductsAsync(List<String> listProducts) {
+    public Mono<Map<String, Float>> getValueOfProducts(List<String> listProducts) {
         return Flux.fromIterable(listProducts)
                 .flatMap(productId -> getPriceFromCacheOrFetch(productId))  // Get the price from the cache or external API
                 .collectMap(ItemResponse::id,
@@ -57,7 +60,7 @@ public class ProductService implements IProductService{
 
 
     // If the price is not cached, it makes the call to the external API and stores it in Redis
-    private Mono<ItemResponse> fetchAndCacheProductPrice(String productId) {
+    public Mono<ItemResponse> fetchAndCacheProductPrice(String productId) {
         return externalAPIWebflux.fetchItemPrice(productId)  // Makes the call to the external API
                 .flatMap(item -> {
                     // Check if the price is null before proceeding

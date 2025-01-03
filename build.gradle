@@ -26,7 +26,6 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.2.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -34,7 +33,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux:3.4.1'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis:3.4.1'
 	implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
-
+	testImplementation 'io.projectreactor:reactor-test'
 
 
 }
@@ -53,6 +52,18 @@ jacocoTestReport {
 	reports {
 		xml.required = true
 		html.required = true
+	}
+	afterEvaluate {
+		classDirectories.setFrom(
+				files(classDirectories.files.collect {
+					fileTree(dir: it, exclude: [
+							'com/meli/coupons/configuration/*',
+							'com/meli/coupons/controller/exception/*',
+							'com/meli/coupons/model/*',
+							'com/meli/coupons/service/integration/*'
+					])
+				})
+		)
 	}
 
 }
