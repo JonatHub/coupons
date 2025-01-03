@@ -47,7 +47,7 @@ public class ProductServiceTest {
 
     @Test
     void testCalculateCoupon_withCacheHit() {
-        // Mock Redis to return a cached value
+
         String productId = "validProductId";
         float price = 100.0f;
         List<String> productIds = List.of(productId);
@@ -71,7 +71,7 @@ public class ProductServiceTest {
 
     @Test
     void testCalculateCoupon_withCacheMiss() {
-        // Mock external API call and Redis
+
         String productId = "product1";
         float price = 100.0f;
         List<String> productIds = List.of(productId);
@@ -97,7 +97,7 @@ public class ProductServiceTest {
 
     @Test
     void testGetValueOfProducts_withCacheMiss() {
-        // Mock Redis and external API for multiple products
+
         List<String> productIds = List.of("product1", "product2");
         Map<String, Float> prices = Map.of("product1", 100.0f, "product2", 200.0f);
 
@@ -130,7 +130,7 @@ public class ProductServiceTest {
         Mono<ItemResponse> result = productService.fetchAndCacheProductPrice(productId);
 
         StepVerifier.create(result)
-                .verifyComplete(); // Should complete without emitting any value
+                .verifyComplete();
     }
 
 

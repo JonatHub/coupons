@@ -30,7 +30,7 @@ class CouponControllerTest {
 
     @Test
     void testCalculateCoupon_Success() {
-        // Configuración del mock
+
         List<String> productIds = List.of("prod1", "prod2");
         int amount = 50;
         ItemRequest request = new ItemRequest(productIds, amount);
@@ -41,7 +41,6 @@ class CouponControllerTest {
         when(productService.calculateCoupon(productIds, amount))
                 .thenReturn(Mono.just(response));
 
-        // Prueba del endpoint
         webTestClient.post()
                 .uri("/coupon/")
                 .bodyValue(request)
@@ -53,13 +52,11 @@ class CouponControllerTest {
                     assertEquals(totalAmount, res.total());
                 });
 
-        // Verificar que se llamó al servicio con los parámetros correctos
         verify(productService).calculateCoupon(productIds, amount);
     }
 
     @Test
     void testCalculateCoupon_EmptyResponse() {
-        // Configuración del mock
         List<String> productIds = List.of("prod1", "prod2");
         int amount = 50;
         ItemRequest request = new ItemRequest(productIds, amount);
@@ -67,7 +64,6 @@ class CouponControllerTest {
         when(productService.calculateCoupon(productIds, amount))
                 .thenReturn(Mono.empty());
 
-        // Prueba del endpoint
         webTestClient.post()
                 .uri("/coupon/")
                 .bodyValue(request)
@@ -75,13 +71,11 @@ class CouponControllerTest {
                 .expectStatus().isOk()
                 .expectBody(String.class);
 
-        // Verificar que se llamó al servicio con los parámetros correctos
         verify(productService).calculateCoupon(productIds, amount);
     }
 
     @Test
     void testCalculateCoupon_Error() {
-        // Configuración del mock
         List<String> productIds = List.of("prod1", "prod2");
         int amount = 50;
         ItemRequest request = new ItemRequest(productIds, amount);
@@ -89,7 +83,6 @@ class CouponControllerTest {
         when(productService.calculateCoupon(productIds, amount))
                 .thenReturn(Mono.error(new RuntimeException("Error fetching coupon")));
 
-        // Prueba del endpoint
         webTestClient.post()
                 .uri("/coupon/")
                 .bodyValue(request)
@@ -98,7 +91,6 @@ class CouponControllerTest {
                 .expectBody(String.class)
                 .value(res -> assertTrue(res.contains("Error fetching coupon")));
 
-        // Verificar que se llamó al servicio con los parámetros correctos
         verify(productService).calculateCoupon(productIds, amount);
     }
 }

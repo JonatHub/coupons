@@ -27,9 +27,7 @@ public class ProductService implements IProductService{
     public Mono<ProductsResponse> calculateCoupon(List<String> productIds, float amount) {
         return getValueOfProducts(productIds)
                 .map(itemsProducts -> {
-                    // Usa couponService para obtener los productos seleccionados
                     List<String> selectedProducts = couponService.calculate(itemsProducts, amount);
-                    // Calcula la suma total de los productos seleccionados
                     int totalAmount = selectedProducts.stream()
                             .mapToInt(productId -> itemsProducts.getOrDefault(productId, 0f).intValue())
                             .sum();

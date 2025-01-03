@@ -24,7 +24,7 @@ public class ExternalAPIWebflux {
                 .retrieve()
                 .bodyToMono(ItemResponse.class)
                 .onErrorResume(e -> {
-                log.error("Error al obtener el precio del producto con ID {}: {}", itemId, e.getMessage());
+                log.error("Error to get product price with ID {}: {}", itemId, e.getMessage());
                 return Mono.empty();
                 });
     }
