@@ -354,6 +354,19 @@ La aplicación ahora estará disponible en `http://localhost:8080`.
 }
 ```
 
+## Resultados
+
+Especificaciones:
+
+Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz   2.50 GHz
+RAM 8,00 GB
+
+![img.png](src/main/resources/images/img.png)
+
+![img_1.png](src/main/resources/images/img_1.png)
+
+![img.png](src/main/resources/images/jmeter.png)
+
 ## Diagramas
 
 ### Diagrama de componentes
