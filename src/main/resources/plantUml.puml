@@ -1,0 +1,99 @@
+@startuml
+' Definición de paquetes y disposición vertical
+skinparam layout vcompact
+
+package "Controller" {
+  package "Exception" {
+    class GlobalException {
+      +handleGlobalException(exception: Exception): ResponseEntity
+    }
+    class BusinessException {
+      +handleBusinessException(exception: BusinessException): ResponseEntity
+    }
+
+    ' Relación donde GlobalException usa BusinessException
+    GlobalException --> BusinessException : Usa
+  }
+
+  class CouponController {
+    +calculateCoupon(ItemRequest items): Mono<ResponseEntity<ProductsResponse>>
+  }
+}
+
+package "Service" {
+  interface IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  interface ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+
+  class ProductService implements IProductService {
+    +getValueOfProducts(listProducts: List<String>): Mono<Map<String, Float>>
+    +calculateCoupon(productIds: List<String>, amount: float): Mono<ProductsResponse>
+  }
+
+  class CouponService implements ICouponService {
+    +calculate(items: Map<String, Float>, amount: Float): List<String>
+  }
+}
+
+package "Model" {
+  class ProductsResponse {
+    +itemId: List<String>
+    +total: Integer
+  }
+
+  class ItemResponse {
+    +id: String
+    +price: Integer
+  }
+
+  class ItemRequest {
+    +itemId: List<String>
+    +amount: Integer
+  }
+}
+
+package "Repository" {
+  class RedisTemplate
+}
+
+package "Configuration" {
+  class FloatRedisSerializer {
+    +serialize(obj: Object): byte[]
+    +deserialize(data: byte[]): Object
+  }
+
+  class RedisConfig {
+    +reactiveRedisTemplate(ReactiveRedisConnectionFactory redisConnectionFactory): ReactiveRedisTemplate<String, Float>
+  }
+}
+
+package "ExternalAPI" {
+  class ExternalAPIWebflux {
+    +getProductFromExternalAPI(id: Long): Product
+  }
+}
+
+' Relaciones entre clases
+CouponController --> IProductService : Llama a
+IProductService --> ICouponService : Llama a
+IProductService --> ProductService : Implementa
+ICouponService --> CouponService : Implementa
+
+ProductService --> ExternalAPIWebflux : Llama a
+ProductService --> ProductsResponse : Usa
+ProductService --> ItemResponse : Usa
+
+RedisConfig --> FloatRedisSerializer : Usa
+RedisConfig --> RedisTemplate : Configura
+
+' Relación entre RedisConfig y CouponController
+RedisConfig --> CouponController : Configura RedisTemplate
+
+CouponController --> GlobalException : Maneja excepciones
+
+@enduml
