@@ -55,7 +55,8 @@ cd coupons
 docker-compose up --build
 ```
 
-La aplicación ahora estará disponible en http://localhost:8080 y redis en `http://localhost:6379`.
+La aplicación ahora estará disponible en http://localhost:8080
+ y redis en `http://localhost:6379`.
 
 
 
