@@ -58,6 +58,8 @@ docker-compose up --build
 La aplicación ahora estará disponible en http://localhost:8080
  y redis en `http://localhost:6379`.
 
+Tambien se habilita el puerto http://localhost:5540 para visualizar la caché de redis.
+
 
 
 ## Uso de la API
@@ -114,7 +116,7 @@ Los resultados fueron satisfactorios con un % de error de solo el 9,02% y un ren
 
 ![img_1.png](src/main/resources/images/img_1.png)
 
-Adicionalmente se muestra visualmente usando **Redis insight** como guarda en caché los productos
+Adicionalmente se muestra visualmente usando **Redis insight** como guarda en caché los productos http://localhost:5540
 
 ![img.png](src/main/resources/images/img.png)
 
